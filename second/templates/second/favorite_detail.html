@@ -1,0 +1,19 @@
+{% extends 'second/layout.html' %}
+{% block title %}
+즐겨찾기 상세
+{% endblock %}
+{% block content %}
+<h3>즐겨찾기 상세</h3>
+<div id="detail">
+    <ul>
+        <li><span>순번</span>{{detail.seq}}</li>
+        <li><span>이름</span>{{detail.name}}</li>
+        <li><span>주소</span>{{detail.url}}</li>
+        <li><span>메모</span>{{detail.memo}}</li>
+        <li><span>날짜</span>{{detail.reg_date}}</li>
+        <li><span>그룹</span>{{detail.group}}</li>
+        
+       
+    </ul>
+</div>
+{% endblock %}
